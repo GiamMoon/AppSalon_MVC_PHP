@@ -1,0 +1,24 @@
+{
+    "name": "giamp/app-salon_php_mvc_js_sass",
+    "description": "Proyecto php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" :"./classes",
+            "Giamp\\AppSalonPhpMvcJsSass\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Giampier",
+            "email": "giampierdelacruz37@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
